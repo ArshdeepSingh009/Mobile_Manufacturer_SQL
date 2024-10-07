@@ -1,4 +1,12 @@
---SQL Advance Case Study
+
+**Mobile Manufacturer Data Analysis**
+
+**Project Overview**
+This project involves performing SQL-based data analysis on a mobile manufacturer dataset, consisting of several dimension and fact tables. The goal is to derive meaningful insights about customer purchases, manufacturers, models, and locations through various SQL queries. The project focuses on advanced querying techniques to solve real-world business problems related to mobile phone transactions.
+
+**Dataset Structure**
+
+The project uses the following tables
 
 SELECT * FROM DIM_CUSTOMER
 
@@ -240,9 +248,45 @@ SELECT * FROM FACT_TRANSACTIONS
 			LAG(avg_spend) OVER (PARTITION BY IDcustomer ORDER BY purchase_year)) * 100 AS spend_change_percentage
 			FROM CustomerYearlyData
 			ORDER BY avg_spend DESC
+   
+   --Q10--END
+   
+
+
+ **Conclusion**
+   
+This SQL case study provides a comprehensive analysis of customer behavior, product 
+performance, and sales trends for a cellphone retailer. The advanced queries demonstrate the 
+power of SQL to extract valuable insights from complex data, covering a range of business
+critical areas. The findings can help the company make informed decisions to optimize their 
+operations, target the right customers, and stay ahead of the competition. 
+
+
+**Key Takeaways**
+
+**-->CUSTOMER INSIGHTS** 
+
+Gained a deeper understanding of the geographic distribution of customers, regional 
+preferences, and valuable repeat buyers.
+
+**-->PRODUCT ANALYSIS** 
+
+Identified the most affordable and top-selling models, as well as pricing strategies of leading 
+manufacturers. 
+
+**-->SALES TRENDS**
+
+Revealed consistent top sellers, market share shifts, and emerging players in the cellphone 
+market.
+
+**-->CUSTOMER SPENDING**
+
+Analyzed the spending patterns and loyalty of the company's most valuable customers over 
+time. 
+
 			
 			
 			
 
---Q10--END
+
 	
