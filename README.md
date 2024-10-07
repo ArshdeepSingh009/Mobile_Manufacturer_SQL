@@ -1,5 +1,5 @@
 
-**Mobile Manufacturer Data Analysis**
+ # Mobile Manufacturer Data Analysis
 
 **Project Overview**
 This project involves performing SQL-based data analysis on a mobile manufacturer dataset, consisting of several dimension and fact tables. The goal is to derive meaningful insights about customer purchases, manufacturers, models, and locations through various SQL queries. The project focuses on advanced querying techniques to solve real-world business problems related to mobile phone transactions.
